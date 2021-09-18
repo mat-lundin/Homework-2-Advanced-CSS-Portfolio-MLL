@@ -1,11 +1,12 @@
 * {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: blue
+    color: darkgreen;
+    background-color: lavender;
 }
 
 #header {
     width: 100%;
-    border-style: solid;
+    height: auto;
     display: flex;
     flex-wrap: wrap;
     font-size: 36px
@@ -15,19 +16,17 @@
 
 nav {
     width: 50%;
-    border-style: solid;
-    border-color: blue;
     background-color: lavender;
     flex: initial;
     justify-items: right;
-    font-size: 32px;
-    position: relative;
+    font-size: 28px;
+    /* position: relative; */
     
 }
 
 nav li {
     display: inline;
-    padding: 10px;
+    padding-left: 10px;
 }
 
 nav ul {
@@ -37,7 +36,6 @@ nav ul {
 
 #name {
     width: 150px;
-    border-style: solid;
     background-color: lavender;
     flex: 1 3 auto;
 }
@@ -52,10 +50,41 @@ nav ul {
 
 #subtitle {
     background-color: lavender;
-    width: 200px;
-    margin-top: 100px;
+    width: 220px;
+    margin-top: 160px;
     margin-left: 1000px;
+    font-size: 20px;
     position:absolute;
     flex: 1 0 auto;
     
+}
+
+.sectionhead {
+    font-size: 32px;
+    width: 15%;
+    border-style: solid;
+    /* flex: 1 0 auto; */
+}
+
+.workbox {
+    background-image: url(../images/profilepicture.jpg);
+    height: 500px;
+    width: 500px;
+    border-style: solid;
+    object-fit:cover;
+}
+
+.workinfo {
+    position: relative;
+    margin-top: 80%;
+    border-style: solid;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+}
+
+footer {
+    text-align: center;
 }
