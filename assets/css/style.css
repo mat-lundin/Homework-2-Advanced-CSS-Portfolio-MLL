@@ -69,6 +69,7 @@ nav li {
     width: 15%;
     border-right: solid;
     border-color: var(--black);
+    display: flex;
     /* flex: 1 0 auto; */
 }
 
@@ -113,6 +114,7 @@ nav li {
 } */
 
 .sectioncontent {
+    width: 70%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -121,6 +123,8 @@ nav li {
     
 
 }
+
+
 .sectioncontent img {
     height:100vh;
     width: 100vh;
@@ -130,15 +134,16 @@ nav li {
 }
 
 #workbox1 img {
-    height:200vh;
-    width: 200vh;
+    height:120vh;
+    width: 120vh;
     object-fit: fill;
-    position: relative;
+    margin-left: 40%;
+
 }
 
 .workinfo {
     position: relative;
-    margin-bottom: 100%;
+    margin: auto;
     border-style: solid;
     z-index: 1;
 }
