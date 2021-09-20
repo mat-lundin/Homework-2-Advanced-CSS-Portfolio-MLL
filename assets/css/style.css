@@ -17,30 +17,26 @@
     height: auto;
     display: flex;
     flex-wrap: wrap;
-    font-size: 36px
+    font-size: 36px;
+    justify-content:space-between;
     
     
 }
 
 nav {
-    width: 50%;
+    padding-right: 3%;
     flex: initial;
-    /* justify-items: right; */
     font-size: 28px;
-    /* position: relative; */
+
     
 }
 
 nav li {
     display: inline;
     padding-left: 10px;
-    /* justify-items: right; */
+
 }
 
-nav ul {
-    flex: auto;
-    justify-items: right;
-}
 
 
 #name {
@@ -58,14 +54,15 @@ nav ul {
 }
 
 #subtitle {
-    width: 220px;
+    width: 360px;
     margin-top: 160px;
     margin-left: 1000px;
-    font-size: 20px;
+    font-size: 36px;
     position: absolute;
     flex: 1 0 auto;
     
 }
+
 
 .sectionhead {
     font-size: 32px;
@@ -119,8 +116,8 @@ nav ul {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    position: relative;
-    justify-items: center;
+    /* position: relative; */
+    justify-content:space-between;
     
 
 }
