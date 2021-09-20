@@ -70,6 +70,7 @@ nav li {
     border-right: solid;
     border-color: var(--black);
     display: flex;
+    padding-bottom: 2%;
     /* flex: 1 0 auto; */
 }
 
