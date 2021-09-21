@@ -23,6 +23,13 @@
     
 }
 
+header img {
+    width: 36px;
+    height: 36px;
+    object-fit: fill;
+
+}
+
 nav {
     padding-right: 3%;
     flex: initial;
@@ -127,16 +134,17 @@ nav li {
 
 
 .sectioncontent img {
-    height:100vh;
-    width: 100vh;
+
+    height:75vh;
+    width: 75vh;
     object-fit: fill;
     position: relative;
 
 }
 
 #workbox1 img {
-    height:120vh;
-    width: 120vh;
+    height:100vh;
+    width: 100vh;
     object-fit: fill;
     margin-left: 40%;
 
@@ -144,6 +152,8 @@ nav li {
 
 .workinfo {
     position: relative;
+    bottom: 20px;
+    right: 20px;
     margin: auto;
     border-style: solid;
     z-index: 1;
@@ -171,7 +181,8 @@ footer {
     border-color: var(--brown);
 }
 
-nav li:hover {
+nav li a:hover {
     cursor: pointer;
+    background-color: var(--green);
 
 }
