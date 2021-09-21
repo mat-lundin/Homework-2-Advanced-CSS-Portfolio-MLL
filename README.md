@@ -14,3 +14,5 @@ At the botom of this section are two links: email and github. These also change 
 Finally, I centered the footer.
 
 The web page is hosted on github and can be found [here](https://mat-lundin.github.io/Homework-2-Advanced-CSS-Portfolio-MLL/)
+
+![webpage screenshot](/assets/images/portfolioscreenshot.png)
